@@ -2,10 +2,12 @@
 
 Pure means: same input, same output, no database, no files. That is exactly
 what makes them easy to test, which is exactly what makes CI useful.
+hello this is abdulla testing
 """
 import pandas as pd
 
 REQUIRED_COLUMNS = ["order_id", "date", "city", "item", "qty", "price"]
+
 
 
 def validate_columns(df):
