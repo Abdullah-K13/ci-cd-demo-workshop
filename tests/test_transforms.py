@@ -52,4 +52,4 @@ def test_revenue_by_city_sorts_biggest_first():
 
 def test_this_one_fails_on_purpose():
     df = add_total(frame([[1, "2026-10-18", "Karachi", "Leash", 3, 500]]))
-    assert df.loc[0, "total"] == 9999      # it is really 1500
+    assert df.loc[0, "total"] == 1500      # it is really 1500
